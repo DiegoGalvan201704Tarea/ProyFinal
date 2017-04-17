@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.3.201612191259-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+	</configs>
+	<autoconfigs>
+		<config>src/main/webapp/WEB-INF/spring/rootContext.xml</config>
+		<config>java:me.jmll.utm.config.ServletContextConfig</config>
+		<config>java:me.jmll.utm.component.ScheduledTasks</config>
+		<config>java:me.jmll.utm.config.RootContextConfig</config>
+		<config>java:me.jmll.utm.config.RestServletContextConfig</config>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>
